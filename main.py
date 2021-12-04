@@ -16,7 +16,7 @@ import copy
 # C'est le deuxième plus gros texte disponible sur l'ABU
 # Voir avec "textes.py" qui classe les textes en fonction de leur taille
 
-file = open("/home/kali/Code/python/decryptage/texte_example", "r")
+file = open("texte_example", "r")
 texte = file.read().lower()
 file.close()
 

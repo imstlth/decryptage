@@ -3,7 +3,7 @@
 import re
 import string
 
-file = open("/home/kali/Code/python/decryptage/texte_example", "r")
+file = open("texte_example", "r")
 texte = file.read().lower()
 file.close()
 
